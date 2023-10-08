@@ -32,7 +32,7 @@ class AppText extends StatefulWidget {
   Key? textKey;
   TextStyle? style;
   StrutStyle? strutStyle;
-  double? minFontSize = 1;
+  double minFontSize = 1;
   double? maxFontSize = double.infinity;
   double? stepGranularity = 1;
   List<double>? presetFontSizes;
@@ -63,7 +63,7 @@ class _AppTextState extends State<AppText> {
                 widget.text,
                 style: widget.style,
                 strutStyle: widget.strutStyle,
-                minFontSize: widget.minFontSize = 12,
+                minFontSize: widget.minFontSize,
                 maxFontSize: widget.maxFontSize = double.infinity,
                 stepGranularity: widget.stepGranularity = 1,
                 presetFontSizes: widget.presetFontSizes,
@@ -84,7 +84,7 @@ class _AppTextState extends State<AppText> {
               widget.text,
               style: widget.style,
               strutStyle: widget.strutStyle,
-              minFontSize: widget.minFontSize = 12,
+              minFontSize: widget.minFontSize,
               maxFontSize: widget.maxFontSize = double.infinity,
               stepGranularity: widget.stepGranularity = 1,
               presetFontSizes: widget.presetFontSizes,
@@ -135,7 +135,7 @@ class AppRichText extends StatefulWidget {
   Key? textKey;
   TextStyle? style;
   StrutStyle? strutStyle;
-  double? minFontSize = 1;
+  double minFontSize = 1;
   double? maxFontSize = double.infinity;
   double? stepGranularity = 1;
   List<double>? presetFontSizes;
@@ -166,7 +166,7 @@ class _AppRichTextState extends State<AppRichText> {
                 widget.text,
                 style: widget.style,
                 strutStyle: widget.strutStyle,
-                minFontSize: widget.minFontSize = 12,
+                minFontSize: widget.minFontSize,
                 maxFontSize: widget.maxFontSize = double.infinity,
                 stepGranularity: widget.stepGranularity = 1,
                 presetFontSizes: widget.presetFontSizes,
@@ -187,7 +187,7 @@ class _AppRichTextState extends State<AppRichText> {
               widget.text,
               style: widget.style,
               strutStyle: widget.strutStyle,
-              minFontSize: widget.minFontSize = 12,
+              minFontSize: widget.minFontSize,
               maxFontSize: widget.maxFontSize = double.infinity,
               stepGranularity: widget.stepGranularity = 1,
               presetFontSizes: widget.presetFontSizes,

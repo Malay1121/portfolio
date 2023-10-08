@@ -13,12 +13,14 @@ class AppColors {
 
 class AppStrings {
   static String imagePath = 'assets/images/';
+  static String profilePicture = '${imagePath}malay.jpeg';
   static String primaryFont = 'FiraCode';
   static String bigShoulder = 'BigShoulder';
   static String iceland = 'Iceland';
   static String backgroundBlur = '${imagePath}background_blur.png';
   static String icLinkedin = '${imagePath}ic_linkedin.png';
   static String icInstagram = '${imagePath}ic_instagram.png';
-  static String icStackoverflow = '${imagePath}ic_stack-overflow.png';
+  static String icStackoverflow = '${imagePath}ic_stackoverflow.png';
+  static String icGithub = '${imagePath}ic_github.png';
   static String icMedium = '${imagePath}ic_medium.png';
 }

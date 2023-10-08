@@ -15,6 +15,7 @@ void main() {
       theme: ThemeData(
         fontFamily: AppStrings.primaryFont,
       ),
+      debugShowCheckedModeBanner: false,
       getPages: AppPages.routes,
     ),
   );
