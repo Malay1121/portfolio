@@ -34,13 +34,23 @@ class _CommonBottombarState extends State<CommonBottombar> {
           mainAxisAlignment: MainAxisAlignment.center,
           children: [
             if (!widget.tabBar)
-              Padding(
-                padding: const EdgeInsets.only(left: 30, right: 30),
-                child: AppText(
-                  text: 'find me in:',
-                  style: TextStyle(
-                    color: AppColors.codeColor,
-                    fontWeight: FontWeight.w500,
+              Container(
+                height: 55.19.h(context),
+                decoration: BoxDecoration(
+                  border: Border.all(
+                    color: AppColors.borderColor,
+                  ),
+                ),
+                child: Center(
+                  child: Padding(
+                    padding: const EdgeInsets.only(left: 30, right: 30),
+                    child: AppText(
+                      text: 'find me in:',
+                      style: TextStyle(
+                        color: AppColors.codeColor,
+                        fontWeight: FontWeight.w500,
+                      ),
+                    ),
                   ),
                 ),
               ),
